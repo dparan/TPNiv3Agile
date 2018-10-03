@@ -139,7 +139,7 @@ CREATE TABLE IF NOT EXISTS Depart
 
 CREATE TABLE IF NOT EXISTS DepartAvion
 (
-	depart varchar(255) not null,
+	depart int not null,
 	avion int not null,
 	qte_carburant int not null,
 	foreign key (depart) references Depart(id),
@@ -169,10 +169,20 @@ CREATE TABLE IF NOT EXISTS RapportPilote
 	primary key(depart,pilote)
 );
 
-/* A CORRIGER J'EN AI JAMAIS FAIT 
-CREATE TRIGGER IF NOT EXISTS after_insert_TempsVolType AFTER INSERT OR UPDATE
+/* A chaque insertion d'un temps pour un type le trigger va modifier le temps de vol total */ 
+DELIMITER $
+CREATE TRIGGER after_insert_TempsVolType AFTER INSERT
 ON TempsVolType FOR EACH ROW
 BEGIN
-	UPDATE Pilote set nombreHeureTotal = nombreHeureTotal+NEW.temps where Pilote.id = NEW.pilote;
-	/* (select nombreHeureTotal from Pilote where Pilote.id = NEW.pilote) */
-/*END*/
+	UPDATE Pilote set nombreHeureTotal = (select nombreHeureTotal from Pilote where Pilote.id = NEW.pilote)+NEW.temps where Pilote.id = NEW.pilote;
+END$
+DELIMITER ;
+
+/* A chaque modification d'un temps pour un type le trigger va modifier le temps de vol total */ 
+DELIMITER $
+CREATE TRIGGER after_update_TempsVolType AFTER UPDATE
+ON TempsVolType FOR EACH ROW
+BEGIN
+	UPDATE Pilote set nombreHeureTotal = (select nombreHeureTotal from Pilote where Pilote.id = NEW.pilote)+NEW.temps-OLD.temps where Pilote.id = NEW.pilote;
+END$
+DELIMITER ;
