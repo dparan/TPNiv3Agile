@@ -8,7 +8,7 @@ public class Depart {
 	private Date dateDepart;
 	private int vol;
 	
-	Depart(int id,Date dateDepart,int vol){
+	public Depart(int id,Date dateDepart,int vol){
 		this.id = id;
 		this.dateDepart = dateDepart;
 		this.vol = vol;

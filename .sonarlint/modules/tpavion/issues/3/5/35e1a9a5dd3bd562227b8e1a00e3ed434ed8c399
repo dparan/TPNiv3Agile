@@ -1,0 +1,11 @@
+
+osquid:S2095 "GUse try-with-resources or close this "Statement" in a "finally" clause.(óúŞÛH“RBLOCKERZBUG
+csquid:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿH”RINFOZ
+CODE_SMELL
+osquid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(óúŞÛH’RBLOCKERZBUG
+osquid:S2095'"GUse try-with-resources or close this "Statement" in a "finally" clause.(óúŞÛH‘RBLOCKERZBUG
+Œsquid:S2077("RUse a variable binding mechanism to construct this query instead of concatenation.(äûÊê8Ÿ ¨¬ä,HšRCRITICALZVULNERABILITY
+vsquid:S2095("GUse try-with-resources or close this "ResultSet" in a "finally" clause.(äûÊê8Ÿ ¨¬ä,H›RBLOCKERZBUG
+vsquid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(óúŞÛ8Ÿ ¨¬ä,HœRBLOCKERZBUG
+nsquid:UselessImportCheck"-Remove this unused import 'data_model.Avion'.(áù­8Ÿ ¨¬ä,HRMINORZ
+CODE_SMELL

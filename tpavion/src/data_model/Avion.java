@@ -7,7 +7,7 @@ public class Avion {
 	private int capacite;
 	private int typeAvion;
 	
-	Avion(int id, String nom, int capacite, int typeAvion) {
+	public Avion(int id, String nom, int capacite, int typeAvion) {
 		super();
 		this.id = id;
 		this.nom = nom;

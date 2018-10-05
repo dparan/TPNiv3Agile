@@ -1,0 +1,11 @@
+
+usquid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(σϊήΫ8€¬δ,HvRBLOCKERZBUG
+‘squid:S2077)"RUse a variable binding mechanism to construct this query instead of concatenation.(™κ«ύÿÿÿÿÿ8…•¬δ,HRCRITICALZVULNERABILITY
+isquid:S1135"2Complete the task associated to this TODO comment.(ƒ® ϊÿÿÿÿ8’•σ«δ,HlRINFOZ
+CODE_SMELL
+usquid:S2095("GUse try-with-resources or close this "Statement" in a "finally" clause.(σϊήΫ8£Θϋ«δ,HqRBLOCKERZBUG
+usquid:UselessImportCheck	"0Remove this unused import 'data_model.Personne'.(Φ³θώÿÿÿÿ8€¬δ,HxRMINORZ
+CODE_SMELL
+usquid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(σϊήΫ8’•σ«δ,HjRBLOCKERZBUG
+usquid:S2095 "GUse try-with-resources or close this "Statement" in a "finally" clause.(σϊήΫ8’•σ«δ,HkRBLOCKERZBUG
+zsquid:S2095)"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(™κ«ύÿÿÿÿÿ8€¬δ,HwRBLOCKERZBUG

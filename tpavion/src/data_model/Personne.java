@@ -10,7 +10,7 @@ public class Personne {
 	private String adresse;
 	private BigInteger noTelephone;
 	
-	Personne(int id, String prenom, String nom, String adresse, BigInteger noTelephone) {
+	public Personne(int id, String prenom, String nom, String adresse, BigInteger noTelephone) {
 		super();
 		this.id = id;
 		this.prenom = prenom;
