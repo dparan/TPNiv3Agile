@@ -1,0 +1,9 @@
+
+csquid:S1313".Make this IP "127.0.0.1" address configurable.(µÁÙÈúÿÿÿÿH³4RMINORZVULNERABILITY
+Gsquid:S1220""Move this file to a named package.H´4RMINORZ
+CODE_SMELL
+€squid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ï™¦øÿÿÿÿHµ4RMINORZ
+CODE_SMELL
+osquid:UselessImportCheck"0Remove this unused import 'data_model.TypeRole'.(æ·®‹úÿÿÿÿH¶4RMINORZ
+CODE_SMELL
+Xsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH·4RMINORZVULNERABILITY

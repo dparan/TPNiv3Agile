@@ -7,10 +7,9 @@ CREATE TABLE IF NOT EXISTS Personne
 	nom varchar(255) not null,
 	prenom varchar(255) not null,
 	adresse varchar(255) not null,
-	no_telephone bigint not null,
+	noTelephone bigint not null,
 	primary key (id)
 );
-
 CREATE TABLE IF NOT EXISTS Passager
 (
 	id int not null,
@@ -23,7 +22,7 @@ CREATE TABLE IF NOT EXISTS Personnel
 ( 
 	id int not null,
 	/* pas besoin d'un identifiant? car le numéro est unique */
-	mot_de_passe varchar(255) not null,
+	motDePasse varchar(255) not null,
 	foreign key (id) references Personne(id),
 	primary key(id)
 );
@@ -102,8 +101,8 @@ CREATE TABLE IF NOT EXISTS TempsVolType
 CREATE TABLE IF NOT EXISTS Troncon
 (
 	id int not null,
-	ville_Depart varchar(255) not null,
-	ville_Arrivee varchar(255) not null,
+	villeDepart varchar(255) not null,
+	villeArrivee varchar(255) not null,
 	distance int not null,
 	primary key (id)
 );
@@ -121,8 +120,8 @@ CREATE TABLE IF NOT EXISTS VolTroncon
 (
 	vol int not null,
 	troncon int not null,
-	heure_depart int not null,
-	heure_arrivee int not null,
+	heureDepart int not null,
+	heureArrivee int not null,
 	foreign key (vol) references Vol(id),
 	foreign key (troncon) references Troncon(id),	
 	primary key (vol,troncon)
@@ -141,7 +140,7 @@ CREATE TABLE IF NOT EXISTS DepartAvion
 (
 	depart int not null,
 	avion int not null,
-	qte_carburant int not null,
+	qteCarburant int not null,
 	foreign key (depart) references Depart(id),
 	foreign key (avion) references Avion(id),
 	primary key(depart,avion)
@@ -151,7 +150,7 @@ CREATE TABLE IF NOT EXISTS DepartPassager
 (
 	passager int not null,
 	depart int not null,
-	no_place int not null,
+	noPlace int not null,
 	foreign key (passager) references Passager(id),	
 	foreign key (depart) references Depart(id),	
 	primary key(passager,depart)

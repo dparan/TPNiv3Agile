@@ -1,0 +1,18 @@
+
+k
+squid:S106&"9Replace this use of System.out or System.err by a logger.(Òä£8ã¾ü™ğ,HíLRMAJORZ
+CODE_SMELL
+q
+squid:S106R"9Replace this use of System.out or System.err by a logger.(¥’ƒüÿÿÿÿ8ã¾ü™ğ,HîLRMAJORZ
+CODE_SMELL
+l
+squid:S1069"9Replace this use of System.out or System.err by a logger.(­¨ìƒ8ã¾ü™ğ,HïLRMAJORZ
+CODE_SMELL
+\squid:S1481"(Remove this unused "cpt" local variable.(ëèÖ8ã¾ü™ğ,HğLRMINORZ
+CODE_SMELL
+l
+squid:S106'"9Replace this use of System.out or System.err by a logger.(ä¿¯Å8ã¾ü™ğ,HñLRMAJORZ
+CODE_SMELL
+q
+squid:S106b"9Replace this use of System.out or System.err by a logger.(¥’ƒüÿÿÿÿ8ã¾ü™ğ,HòLRMAJORZ
+CODE_SMELL

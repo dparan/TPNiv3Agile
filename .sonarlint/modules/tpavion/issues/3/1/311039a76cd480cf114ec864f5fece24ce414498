@@ -1,9 +1,0 @@
-
-usquid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(óúŞÛ8Ä¥­«ä,HDRBLOCKERZBUG
-usquid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(óúŞÛ8Ä¥­«ä,HERBLOCKERZBUG
-isquid:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿ8Ä¥­«ä,HFRINFOZ
-CODE_SMELL
-usquid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(óúŞÛ8ÄËÃ«ä,HVRBLOCKERZBUG
-usquid:S2095'"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(ğØê8ØÊà«ä,H^RBLOCKERZBUG
-usquid:S2095&"GUse try-with-resources or close this "Statement" in a "finally" clause.(óúŞÛ8ØÊà«ä,H_RBLOCKERZBUG
-Œsquid:S2077'"RUse a variable binding mechanism to construct this query instead of concatenation.(ğØê8º›—¬ä,HŒRCRITICALZVULNERABILITY
